@@ -760,7 +760,7 @@ Tag script dipindahkan ke `<head>` tanpa atribut `defer`:
 | 1 | Semua kosong | (kosong) | "Nama wajib diisi." |
 | 2 | Nama kosong | email dan usia terisi | "Nama wajib diisi." |
 | 3 | Nama terlalu pendek | "Ra" | "Nama minimal 3 karakter." |
-| 4 | Email tidak valid | "rafamuhammadm@gmail.com" | "Masukkan email yang valid." |
+| 4 | Email tidak valid | "rafa@" | "Masukkan email yang valid." |
 | 5 | Usia di bawah 17 | 15 | "Usia harus berupa bilangan bulat 17–100." |
 | 6 | Usia desimal | 20.5 | "Usia harus berupa bilangan bulat 17–100." |
 | 7 | Semua valid | "Rafa Muhammad Fauzan", "rafamuhammadm@email.com", 21 | "Validasi berhasil. Form siap diproses." |
