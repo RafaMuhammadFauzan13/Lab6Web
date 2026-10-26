@@ -1,0 +1,24 @@
+/* style.css - Praktikum 6 */
+body {
+ margin: 20px 0;
+ padding: 0 16px;
+}
+
+label, input, button { display: block; margin-top: 8px; }
+button { padding: 6px 12px; cursor: pointer; }
+
+/* Latihan 3 */
+.highlight {
+ color: #173f75;
+ background-color: #e6f1ff;
+ border-left: 4px solid #3478c8;
+ padding: 12px;
+}
+.teks-besar { font-size: 1.4rem; }
+
+/* Latihan 6 */
+.selesai span { text-decoration: line-through; color: #687386; }
+li { margin-bottom: 8px; }
+
+li button { display: inline-block; margin-top: 0; margin-left: 6px; }
+.tersembunyi { display: none; }

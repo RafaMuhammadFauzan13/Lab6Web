@@ -1,0 +1,77 @@
+/* style.css - Mini Project Praktikum 6 */
+* { box-sizing: border-box; }
+
+body {
+ font-family: "Segoe UI", Arial, sans-serif;
+ background: #eef3f9;
+ color: #1d2733;
+ margin: 0;
+ padding: 24px 16px;
+}
+
+.kartu {
+ max-width: 520px;
+ margin: 0 auto;
+ background: #fff;
+ border: 1px solid #d5dfeb;
+ border-radius: 10px;
+ padding: 28px 24px;
+}
+
+h1 { margin: 0 0 4px; font-size: 1.5rem; color: #173f75; }
+h2 { margin: 0 0 8px; font-size: 1rem; }
+.intro { margin: 0 0 20px; color: #5a6778; }
+
+.bidang { margin-bottom: 16px; }
+label { display: block; font-weight: 600; margin-bottom: 6px; }
+
+input, select, textarea {
+ width: 100%;
+ padding: 10px;
+ font: inherit;
+ border: 1px solid #aebdd0;
+ border-radius: 6px;
+ background: #fff;
+}
+input:focus, select:focus, textarea:focus, button:focus-visible {
+ outline: 3px solid #9cc4f2;
+ outline-offset: 1px;
+}
+
+.invalid { border-color: #c0392b; background: #fff6f5; }
+.valid { border-color: #2e8b57; }
+
+.error { color: #c0392b; margin: 6px 0 0; min-height: 1em; font-size: 0.9rem; }
+.info { color: #5a6778; margin: 6px 0 0; font-size: 0.9rem; }
+
+.ringkasan {
+ background: #e6f1ff;
+ border-left: 4px solid #3478c8;
+ border-radius: 4px;
+ padding: 12px 14px;
+ margin-bottom: 16px;
+}
+.ringkasan p { margin: 4px 0; overflow-wrap: anywhere; }
+
+.pesan { margin: 0 0 12px; font-weight: 600; }
+.pesan.sukses { color: #1e7a46; background: #e8f6ee; padding: 10px; border-radius: 6px; }
+.pesan.gagal { color: #c0392b; }
+
+.aksi { display: flex; gap: 10px; flex-wrap: wrap; }
+button {
+ padding: 10px 16px;
+ font: inherit;
+ border: 1px solid #aebdd0;
+ border-radius: 6px;
+ background: #fff;
+ cursor: pointer;
+}
+button.utama { background: #173f75; border-color: #173f75; color: #fff; }
+
+@media (max-width: 480px) {
+ .kartu { padding: 20px 16px; }
+ .aksi button { width: 100%; }
+}
+.judul-toggle { margin-top: 32px; }
+#tombolToggle { margin-top: 8px; }
+.tersembunyi { display: none; }

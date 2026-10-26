@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Pendaftaran Workshop</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="script.js" defer></script>
+</head>
+<body>
+ <main class="kartu">
+  <h1>Pendaftaran Workshop Web</h1>
+  <p class="intro">Isi data di bawah ini untuk mengamankan kursi kamu.</p>
+
+  <form id="formWorkshop" novalidate>
+   <div class="bidang">
+    <label for="nama">Nama lengkap</label>
+    <input id="nama" name="nama" type="text" autocomplete="name">
+    <p class="error" id="errNama" aria-live="polite"></p>
+   </div>
+
+   <div class="bidang">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" autocomplete="email">
+    <p class="error" id="errEmail" aria-live="polite"></p>
+   </div>
+
+   <div class="bidang">
+    <label for="sesi">Sesi workshop</label>
+    <select id="sesi" name="sesi">
+     <option value="">-- Pilih sesi --</option>
+     <option value="HTML dan CSS Dasar">Sesi 1: HTML dan CSS Dasar (Senin, 09.00)</option>
+     <option value="JavaScript DOM">Sesi 2: JavaScript DOM (Rabu, 13.00)</option>
+     <option value="Web Responsif">Sesi 3: Web Responsif (Jumat, 10.00)</option>
+    </select>
+    <p class="info" id="infoSesi"></p>
+    <p class="error" id="errSesi" aria-live="polite"></p>
+   </div>
+
+   <div class="bidang">
+    <label for="catatan">Catatan (opsional)</label>
+    <textarea id="catatan" name="catatan" rows="3" maxlength="100"></textarea>
+    <p class="info"><span id="hitungCatatan">0</span>/100 karakter</p>
+   </div>
+
+   <section class="ringkasan" aria-live="polite">
+    <h2>Ringkasan</h2>
+    <p>Nama: <strong id="ringNama">-</strong></p>
+    <p>Email: <strong id="ringEmail">-</strong></p>
+    <p>Sesi: <strong id="ringSesi">-</strong></p>
+   </section>
+
+   <p id="pesanForm" class="pesan" aria-live="polite"></p>
+
+   <div class="aksi">
+    <button type="submit" class="utama">Daftar sekarang</button>
+    <button type="button" id="tombolReset">Hapus isian</button>
+   </div>
+  </form>
+ </main>
+</body>
+</html>
