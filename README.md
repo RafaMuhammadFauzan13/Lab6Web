@@ -237,13 +237,13 @@ form.addEventListener("submit", function (event) {
 
 **Screenshot - nama kosong:**
 
-![Latihan 5 nama kosong](screenshots/latihan5_nama.png)
+![Latihan 5 nama](screenshots/latihan5_nama.png)
 
 > Tempat screenshot: simpan gambar sebagai `screenshots/latihan5_nama.png`.
 
 **Screenshot - email tidak valid:**
 
-![Latihan 5 email kosong](screenshots/latihan5_email.png)
+![Latihan 5 email](screenshots/latihan5_email.png)
 
 > Tempat screenshot: simpan gambar sebagai `screenshots/latihan5_email.png`.
 
@@ -255,7 +255,7 @@ form.addEventListener("submit", function (event) {
 
 **Screenshot - semua valid:**
 
-![Latihan 5 valid](screenshots/mini_valid.jpeg)
+![Latihan 5 valid](screenshots/latihan5_valid.jpeg)
 
 > Tempat screenshot: simpan gambar sebagai `screenshots/latihan5_valid.png`.
 
