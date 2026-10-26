@@ -790,7 +790,7 @@ Perilaku bawaan form saat disubmit adalah mengirim data dan memuat ulang halaman
 `classList.toggle("nama")` menambahkan kelas jika belum ada dan menghapusnya jika sudah ada. Tampilan elemen bisa dialihkan dengan satu baris tanpa pengecekan manual, sedangkan gayanya tetap diatur di CSS. Contohnya `highlight` pada Latihan 3, `selesai` pada To-do List, dan `tersembunyi` pada Eksperimen 4.
 
 **7. Sebutkan minimal tiga skenario pengujian validasi form.**
-(1) Semua kolom kosong harus menampilkan pesan nama wajib diisi. (2) Email tidak valid, misalnya "rafa@", harus ditolak. (3) Usia di bawah 17 harus ditolak. (4) Nama kurang dari 3 karakter harus ditolak. (5) Semua input valid harus menampilkan pesan sukses dan form dikosongkan. Tabel lengkapnya ada pada bagian Pengujian Validasi Form.
+(1) Semua kolom kosong harus menampilkan pesan nama wajib diisi. (2) Email tidak valid, misalnya "rafamuhammadm@", harus ditolak. (3) Usia di bawah 17 harus ditolak. (4) Nama kurang dari 3 karakter harus ditolak. (5) Semua input valid harus menampilkan pesan sukses dan form dikosongkan. Tabel lengkapnya ada pada bagian Pengujian Validasi Form.
 
 ## Kesimpulan
 Melalui praktikum ini, DOM dapat dipilih dan dimanipulasi lewat JavaScript, event pengguna ditangani dengan `addEventListener()`, dan form divalidasi sebelum diproses. Mini project form workshop menggabungkan validasi, ringkasan langsung, penghitung karakter, pesan sukses dan error, serta tombol reset dalam tampilan yang responsif.
